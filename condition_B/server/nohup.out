@@ -1,0 +1,26 @@
+starting up
+Traceback (most recent call last):
+  File "dyadic_interaction_server.py", line 479, in <module>
+    server = WebsocketServer(PORT,'0.0.0.0')
+  File "/var/www/sslhtml/s1915413/condition_B/server/websocket_server/websocket_server.py", line 123, in __init__
+    TCPServer.__init__(self, (host, port), WebSocketHandler)
+  File "/usr/lib64/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib64/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib64/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+starting up
+Traceback (most recent call last):
+  File "dyadic_interaction_server.py", line 479, in <module>
+    server = WebsocketServer(PORT,'0.0.0.0')
+  File "/var/www/sslhtml/s1915413/condition_B/server/websocket_server/websocket_server.py", line 123, in __init__
+    TCPServer.__init__(self, (host, port), WebSocketHandler)
+  File "/usr/lib64/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib64/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib64/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
